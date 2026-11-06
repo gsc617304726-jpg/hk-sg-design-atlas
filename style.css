@@ -9,3 +9,12 @@
 @keyframes beaconGlow{0%,100%{transform:scale(.85);opacity:.12}50%{transform:scale(1.15);opacity:.28}}
 @media(prefers-reduced-motion:reduce){.pin .pulse,.pin .pin-glow{animation:none}.pin .pulse{opacity:.2}.pin .pulse-two{display:none}.pin-card,.pin .label-card{transition:none}}
 @media(max-width:650px){.mapstage{height:515px;min-height:515px}.mapwrap{height:390px}.motiontoggle{top:56px;right:15px;font-size:9px;padding:4px 8px}.mapfooter{font-size:9px}.mapcredits{display:block;font-size:7px}.mapnote{font-size:8px;bottom:65px}.mapwrap svg{min-width:0}}
+
+/* Undergraduate and master's editions share navigation, with independent routes. */
+.levelbar{height:56px;background:#fff;display:flex;align-items:center;gap:25px;padding:0 36px;border-bottom:1px solid var(--line)}
+.level-switch{display:flex;gap:5px;padding:4px;background:#f1eeff;border-radius:9px}.level-switch a{font-size:13px;padding:5px 17px;border-radius:6px;color:var(--muted);white-space:nowrap}.level-switch a.active{background:var(--purple);color:white;box-shadow:0 3px 8px #5645e820}.level-switch span{font-size:8px;vertical-align:top;padding-left:5px;opacity:.8}
+#guidecontext{font-size:11px;color:var(--muted);margin:0}.explorer{height:calc(100dvh - 140px)}.sheet{top:140px}.degree-kind{display:block;font-size:11px;color:var(--purple);margin-top:8px}.quicknav{display:flex;gap:8px;flex-wrap:wrap;margin:25px 0}.sources a{display:block;font-size:11px;line-height:1.6;overflow-wrap:anywhere}.textpart.label{font-size:14px}.tables td{overflow-wrap:anywhere}.sectiontitle h2{overflow-wrap:anywhere}.pager{gap:16px}.shot+ .shot{margin-top:16px}
+@media(max-width:950px){.levelbar{padding:0 20px}nav{gap:16px}.edition{display:none}}
+@media(max-width:650px){header{padding:0 12px;gap:8px}nav{gap:10px}nav a{font-size:10px}.brandtext{max-width:100px;line-height:1.4}.levelbar{height:auto;min-height:60px;padding:10px 15px;gap:12px;flex-wrap:wrap}#guidecontext{font-size:10px;line-height:1.5}.level-switch a{padding:5px 13px;font-size:12px}.explorer{height:auto}.sheet{top:130px}.stats{position:static;gap:26px;margin:15px 0}.sidebar .desc{max-width:none}.stats .statpages{display:block}.stats b{font-size:23px}.sidebar h1{font-size:28px}.sources{padding:14px}.sectiontitle{align-items:flex-start}.sectiontitle h2{font-size:19px}.sectiontitle small{font-size:10px}.quicknav{gap:7px}.pager a{max-width:65%} }
+
+@media(max-width:650px){.brandtext small{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:95px}.tables th:first-child,.tables td:first-child{min-width:80px}}
