@@ -18,3 +18,5 @@
 @media(max-width:650px){header{padding:0 12px;gap:8px}nav{gap:10px}nav a{font-size:10px}.brandtext{max-width:100px;line-height:1.4}.levelbar{height:auto;min-height:60px;padding:10px 15px;gap:12px;flex-wrap:wrap}#guidecontext{font-size:10px;line-height:1.5}.level-switch a{padding:5px 13px;font-size:12px}.explorer{height:auto}.sheet{top:130px}.stats{position:static;gap:26px;margin:15px 0}.sidebar .desc{max-width:none}.stats .statpages{display:block}.stats b{font-size:23px}.sidebar h1{font-size:28px}.sources{padding:14px}.sectiontitle{align-items:flex-start}.sectiontitle h2{font-size:19px}.sectiontitle small{font-size:10px}.quicknav{gap:7px}.pager a{max-width:65%} }
 
 @media(max-width:650px){.brandtext small{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:95px}.tables th:first-child,.tables td:first-child{min-width:80px}}
+
+.ca-road{fill:none;stroke:#b9aedc;stroke-width:3;stroke-linecap:round;opacity:.65}
