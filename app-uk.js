@@ -36,7 +36,7 @@ function render(){
  $('#app').innerHTML=content;scopeLinks($('#app'));
  $('#navmap').href=route();$('#navcareers').href=route('careers');$('#navlibrary').href=route('library');$('#navapply').href=route('apply');$('.brand').href=route();
  $('#navlibrary span').textContent=D.pages.length;$('.brandtext small').textContent=isCA()?'加拿大本科 · 交互与数字媒体':isUK()?'英国硕士 · 交互与数字媒体':isUG()?'香港本科 · 交互与数字媒体':'香港 × 新加坡 · 设计硕士';
- $('#guidecontext').textContent=isCA()?'8 所院校 · 8 个项目/方向 · 68 页资料':isUK()?'10 所院校 · 13 个项目/方向 · 78 页资料':isUG()?'6 所院校 · 14 个项目/方向 · 97 页资料':'9 所院校 · 18 个项目/方向 · 117 页资料';
+ $('#guidecontext').textContent=isCA()?'8 所院校 · 8 个项目/方向 · 68 页资料':isUK()?'10 所院校 · 16 个项目/方向 · 90 页资料':isUG()?'6 所院校 · 14 个项目/方向 · 97 页资料':'9 所院校 · 18 个项目/方向 · 117 页资料';
  document.querySelectorAll('[data-level]').forEach(a=>a.classList.toggle('active',a.dataset.level===level));
  document.querySelectorAll('nav a').forEach(a=>a.classList.toggle('active',name==='careers'||name==='job'?a.id==='navcareers':name==='library'||name==='page'?a.id==='navlibrary':name==='apply'?a.id==='navapply':a.id==='navmap'));
  document.title=isCA()?'加拿大本科 · 交互与数媒选校地图':isUK()?'英国交互与数媒 · 设计选校地图':isUG()?'香港本科 · 交互与数媒选校地图':'港新设计硕士 · 交互选校地图';
